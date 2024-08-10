@@ -1,0 +1,35 @@
+.features {
+    text-align: center;
+
+    @media screen and (max-width: 575px) {
+        margin-top: -50px;
+    }
+
+    .feature {
+        @media screen and (max-width: 575px) {
+            margin-top: 40px;
+            z-index: 9999;
+        }
+
+        @media screen and (min-width: 576px) {
+            margin-top: -200px;
+            z-index: 9999;
+        }
+        
+        a.club-button {
+            margin-top: 2em;
+            margin-bottom: 2em;
+        }
+
+        hr {
+            background-image: linear-gradient(to right, $color1, $color0, $color0, $color0, $color1);
+            border: 0;
+            height: 2px;
+            /*margin: 0 0 0 0;*/
+        }
+    
+        img {
+            padding: 0 0 2em 0;
+        }
+    }
+}

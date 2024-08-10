@@ -1,2 +1,1 @@
-# ghac
-Gosforth Harriers &amp; AC
+# GosforthHarriers
